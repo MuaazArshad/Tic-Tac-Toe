@@ -7,20 +7,28 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: row;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 }
+#root {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: row;
+}
 
-.Row {
+.board-row {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
 	height: 100px;
+	margin-right: 30px;
 }
 
-.btn {
+.square {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -29,4 +37,8 @@ body {
 
 	width: 100px;
 	font-size: 40px;
+}
+
+.status {
+	font-size: 50px;
 }
